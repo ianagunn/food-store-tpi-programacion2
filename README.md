@@ -50,8 +50,8 @@ src/
 
 ## Enlaces
 
-- Video demostrativo: \[PEGAR ENLACE AL VIDEO – con permisos públicos de visualización\]  
-- Documentación en PDF: \[PEGAR ENLACE AL PDF o subirlo a la raíz del repositorio\]
+- Video demostrativo: https://youtu.be/1OVEtdLcS9s 
+- Documentación en PDF: https://github.com/ianagunn/food-store-tpi-programacion2/blob/main/Documentacion_TPI_FoodStore.pdf
 
 ## Autor
 
