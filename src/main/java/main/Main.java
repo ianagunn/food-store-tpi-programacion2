@@ -31,7 +31,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    // Los services viven mientras corre el programa: acá se guardan los datos en memoria.
+    // Acá se guardan los datos en memoria y mientras corre el programa viven
     private static final CategoriaService categoriaService = new CategoriaService();
     private static final ProductoService productoService = new ProductoService();
     private static final UsuarioService usuarioService = new UsuarioService();
@@ -68,9 +68,7 @@ public class Main {
         System.out.print("Seleccione: ");
     }
 
-    // ============================================================
     // SUBMENÚ DE CATEGORÍAS
-    // ============================================================
 
     private static void menuCategorias() {
         boolean volver = false;
@@ -156,9 +154,7 @@ public class Main {
         }
     }
 
-    // ============================================================
     // SUBMENÚ DE PRODUCTOS
-    // ============================================================
 
     private static void menuProductos() {
         boolean volver = false;
@@ -287,9 +283,7 @@ public class Main {
         }
     }
 
-    // ============================================================
     // SUBMENÚ DE USUARIOS
-    // ============================================================
 
     private static void menuUsuarios() {
         boolean volver = false;
@@ -397,9 +391,7 @@ public class Main {
         }
     }
 
-    // ============================================================
     // SUBMENÚ DE PEDIDOS
-    // ============================================================
 
     private static void menuPedidos() {
         boolean volver = false;
@@ -539,9 +531,7 @@ public class Main {
         }
     }
 
-    // ============================================================
     // HELPERS
-    // ============================================================
 
     // Busca una categoría activa por id recorriendo el listado público del service.
     private static Categoria buscarCategoriaPorId(Long id) {
